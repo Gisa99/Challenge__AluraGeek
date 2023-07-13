@@ -1,0 +1,15 @@
+.cabecalho__logo{
+    background: url(../../Imagens/Logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 28px;
+}
+
+@media(min-width: 1024px){
+    .cabecalho__logo{
+        height: 35px;
+        width: 200px;
+        align-self: flex-start;
+    }
+
+}

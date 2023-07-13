@@ -1,0 +1,44 @@
+.rodape__links-itens{
+    color: #464646;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rodape__links-itens a{
+    line-height: 26px;
+}
+
+.rodape__links-itens a:hover{
+    color: #2A7AE4;
+    font-weight: 700;
+
+}@media(min-width: 768px) and (max-width: 1024px){
+    .logo-link{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape__links{
+        display: flex;
+    }
+    .rodape__links-itens{
+        line-height: 2.5rem;
+        text-align: left;
+    }
+}
+@media(min-width: 1024px){
+    .logo-link{
+        display: flex;
+        gap: 152px;
+    }
+   
+    .rodape__links-itens{
+        line-height: 2.5rem;
+        text-align: left; 
+    }
+   
+}
+
+
+

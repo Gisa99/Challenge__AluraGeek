@@ -1,0 +1,38 @@
+.produtos__texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.produtos__titulo{
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.produtos__link{
+    display: flex;
+    column-gap: 2px;
+    color:  #2A7AE4;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.produtos__link:hover, .produtos__link img:hover {
+    color:  #1a4e91;
+    transform: scale(1.12);
+}
+
+@media(min-width: 1024px){
+    
+    .produtos__titulo{
+        font-size: 32px;
+    }
+
+}

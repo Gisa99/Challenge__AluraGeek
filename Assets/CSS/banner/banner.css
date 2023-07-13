@@ -1,0 +1,32 @@
+.banner{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%), url(../../Imagens/banner-image.png), lightgray 50%;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    height: 192px;
+    row-gap: 16px;
+    padding: 16px;
+    
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .banner{
+        padding: 32px;
+        height: 352px;
+        justify-content: baseline;
+         
+    }
+}
+
+@media(min-width: 1024px){
+    .banner{
+        padding: 32px;
+        height: 352px;
+        width: 100vw;
+        justify-content: baseline;
+         
+    }
+}

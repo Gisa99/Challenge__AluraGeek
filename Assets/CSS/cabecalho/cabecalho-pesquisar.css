@@ -1,0 +1,70 @@
+.pesquisar-telas-grandes{
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 8px;
+    padding: 8px 16px;
+    width: 272px;
+
+    display:none;
+}
+
+.pesquisar-telas-grandes img{
+    filter:opacity(0.4);
+}
+
+.cabecalho__pesquisar-telas-grandes{
+    background-color: #F5F5F5;
+    border:none;
+    color:#A2A2A2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+}
+.cabecalho__pesquisar-telas-grandes-btn{
+    background-color: #F5F5F5;
+    border: none;
+}
+
+
+.cabecalho__pesquisar{
+    background-color: #fff;
+    border: none;
+}
+
+.cabecalho__pesquisar img{
+    height: 24px;
+    width: 24px;
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+ 
+    .cabecalho__pesquisar{
+        display: none;
+    }
+
+    .pesquisar-telas-grandes{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+}@media(min-width: 1024px){
+
+    .cabecalho__pesquisar{
+        display: none;
+    }
+
+    .pesquisar-telas-grandes{
+        display: block;
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+        width: 393px;
+    }
+  
+}

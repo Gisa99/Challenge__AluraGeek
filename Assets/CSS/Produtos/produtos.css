@@ -1,0 +1,15 @@
+.produtos{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+
+@media(min-width: 1024px){
+    
+    .produtos{
+        margin: 0 152px;
+        padding: 16px 0;
+    }
+
+}

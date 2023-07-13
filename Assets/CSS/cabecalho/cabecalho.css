@@ -1,0 +1,26 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    flex-wrap: wrap;
+    
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .cabecalho{
+        padding: 16px 32px;
+        
+}
+}
+
+@media(min-width: 1024px){
+    .cabecalho{
+        align-items: flex-end;
+        padding: 32px 16px; 
+        margin: 0 4rem;
+        justify-content: left;
+        flex-wrap: nowrap;
+          
+}
+}
