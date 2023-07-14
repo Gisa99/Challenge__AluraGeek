@@ -1,0 +1,35 @@
+
+
+.container__login-data{
+    border: none;
+    border-radius: 4px;
+    border-bottom: 1px solid #C8C8C8;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 41px;
+    padding: 12px;
+    width: 275px;
+   
+}
+
+.container__login-data:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    resize: none;
+    }
+
+@media(min-width:768px) and (max-width: 1024px){
+    .container__login-data{
+        width: 275px;
+        height: 41px;
+       
+    }
+}
+@media(min-width: 1024px){
+    .container__login-data{
+        width: 423px;
+        height: 63.127px;
+       
+    }
+}

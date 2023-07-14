@@ -1,0 +1,17 @@
+@media(min-width: 768px){
+    .cabecalho__login{
+        justify-content: flex-start;
+        margin-left: 2.5rem;
+        padding: 32px;
+        
+    }
+}
+
+@media(min-width: 1024px){
+    .cabecalho__login{
+        height: 114px;
+        
+    }
+}
+
+

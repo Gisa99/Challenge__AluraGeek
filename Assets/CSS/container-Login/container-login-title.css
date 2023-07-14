@@ -1,0 +1,13 @@
+.container__login-title{
+    color:  #464646;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media(min-width:768px) and (max-width: 1024px){
+    .container__login-title{
+        font-size: 18px; 
+    }
+}
