@@ -1,0 +1,20 @@
+@media(min-width: 768px) and (max-width: 1024px){
+    .add-cabecalho{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+    .cabecalho__btn-menu{
+        height: 40px;
+        width: 186px;
+    }
+}
+
+@media(min-width: 1024px){
+    .cabecalho__btn-menu{
+        height: 51px;
+        width: 181px;
+    }
+}

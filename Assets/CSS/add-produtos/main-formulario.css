@@ -1,0 +1,15 @@
+.main__formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1rem;
+    height: auto;
+    width: 100%;
+
+}
+
+@media(min-width: 1024px){
+    .main__formulario{
+      width: 559px;
+    }
+}

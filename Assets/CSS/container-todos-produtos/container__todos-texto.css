@@ -1,0 +1,9 @@
+@media(min-width: 0) and (max-width: 760px){
+    .container__todos-texto{
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 16px;
+    }
+}
